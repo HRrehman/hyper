@@ -2858,3 +2858,9 @@ html {
     line-height: 5.25rem;
   }
 }
+.h-12{
+  height: 3rem;
+}
+.w-24{
+  width: 6rem;
+}
