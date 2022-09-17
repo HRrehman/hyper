@@ -1768,6 +1768,10 @@ html {
   margin-top: 1.5rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1848,14 +1852,6 @@ html {
   height: 2rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1896,16 +1892,16 @@ html {
   width: 1.25rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .w-12 {
   width: 3rem;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
-.w-32 {
-  width: 8rem;
+.w-14 {
+  width: 3.5rem;
 }
 
 .min-w-full {
@@ -2322,6 +2318,11 @@ html {
   font-size: 22px;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -2597,8 +2598,8 @@ html {
     display: none;
   }
 
-  .lg\:h-\[4\.5rem\] {
-    height: 4.5rem;
+  .lg\:h-auto {
+    height: auto;
   }
 
   .lg\:h-11 {
@@ -2607,10 +2608,6 @@ html {
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-auto {
-    height: auto;
   }
 
   .lg\:h-74px {
@@ -2623,10 +2620,6 @@ html {
 
   .lg\:h-\[830px\] {
     height: 830px;
-  }
-
-  .lg\:w-\[9\.4375rem\] {
-    width: 9.4375rem;
   }
 
   .lg\:w-\[125px\] {
@@ -2657,20 +2650,12 @@ html {
     width: 24rem;
   }
 
+  .lg\:w-12 {
+    width: 3rem;
+  }
+
   .lg\:w-24 {
     width: 6rem;
-  }
-
-  .lg\:w-32 {
-    width: 8rem;
-  }
-
-  .lg\:w-\[200px\] {
-    width: 200px;
-  }
-
-  .lg\:w-48 {
-    width: 12rem;
   }
 
   .lg\:max-w-\[80\%\] {
