@@ -1,4 +1,5 @@
 // aos
+
 window.addEventListener('load', () => {
   AOS.init({
     duration: 1000,
@@ -18,22 +19,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// countdown
-let countDownItem = Array.from(document.querySelectorAll('.count_down'))
-setInterval(function time() {
-  var d = new Date();
-  var days = 5 - d.getDay();
-  var hours = 24 - d.getHours();
-  var min = 60 - d.getMinutes();
-  if ((min + '').length == 1) {
-    min = '0' + min;
-  }
-  var sec = 60 - d.getSeconds();
-  if ((sec + '').length == 1) {
-    sec = '0' + sec;
-  }
-  countDownItem[0].textContent = days
-  countDownItem[1].textContent = hours
+let endDateElm = "24 September 2022 12:00 am";
+let countDownItem = Array.from(document.querySelectorAll('.count_down'));
+
+function dhms(dateDiff) {
+  let day = Math.floor(dateDiff / 3600 / 24)
+  let hour = Math.floor(dateDiff / 3600) % 24
+  let min = Math.floor(dateDiff / 60) % 60
+  let sec = Math.floor(dateDiff % 60)
+  countDownItem[0].textContent = day
+  countDownItem[1].textContent = hour
   countDownItem[2].textContent = min
   countDownItem[3].textContent = sec
+}
+function countDown() {
+  let endDate = new Date(endDateElm);
+  let newDate = new Date();
+  let dateDiff = (endDate - newDate) / 1000
+  if (dateDiff > 0) {
+    dhms(dateDiff)
+  }
+  else {
+    let newDate = new Date();
+    endDate.setDate(newDate.getDate() + 5);
+    let dateDiff = (endDate - newDate) / 1000
+    dhms(dateDiff);
+  }
+}
+
+let stop = setInterval(() => {
+  countDown();
 }, 1000);
