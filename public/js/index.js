@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-let endDateElm = "08 October 2022 12:00 am";
+let endDateElm = "09 October 2022 12:00 am";
 let countDownItem = Array.from(document.querySelectorAll('.count_down'));
 
 function dhms(dateDiff) {
