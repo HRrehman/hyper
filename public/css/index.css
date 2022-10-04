@@ -2875,3 +2875,11 @@ html {
     line-height: 5.25rem;
   }
 }
+
+.step-text{
+  text-align: left;
+}
+
+.step-text2{
+  padding-right: 25px;
+}
