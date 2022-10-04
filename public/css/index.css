@@ -2884,6 +2884,8 @@ html {
   padding-right: 25px;
 }
 
-.cls-h {
+@media only screen and (max-width: 360px) {
+   .cls-h {
     height: 10rem;
+  }
 }
