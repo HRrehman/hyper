@@ -2894,5 +2894,8 @@ html {
   }
   .navbar-start a {
     width: 3.5rem !important;
-}
+  }
+  .navbar-end {
+    width: 75% !important;
+  }
 }
