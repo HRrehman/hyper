@@ -2903,4 +2903,8 @@ html {
   .navbar-end {
     width: 75% !important;
   }
+  .navbar-end a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
