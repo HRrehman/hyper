@@ -2888,6 +2888,11 @@ html {
     width: 4.5rem !important;
 }
 
+.navbar-end {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
 @media only screen and (max-width: 360px) {
    .cls-h {
     height: 10rem;
