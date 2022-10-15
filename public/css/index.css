@@ -2893,7 +2893,7 @@ html {
     padding-right: 1.75rem;
 }
 
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 700px) and (min-width: 360px) {
    .cls-h {
     height: 10rem;
   }
