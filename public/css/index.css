@@ -2904,7 +2904,7 @@ html {
     width: 100% !important;
   }
   .navbar-end a {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
   }
 }
