@@ -2885,7 +2885,7 @@ html {
 }
 
 .navbar-start a {
-    width: 4.5rem !important;
+    width: 15.5rem !important;
 }
 
 .navbar-end a{
@@ -2898,7 +2898,7 @@ html {
     height: 10rem;
   }
   .navbar-start a {
-    width: 3.5rem !important;
+    width: 9.5rem !important;
   }
   .navbar-end {
     width: 100% !important;
