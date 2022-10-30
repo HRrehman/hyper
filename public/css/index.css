@@ -2893,6 +2893,12 @@ html {
     padding-right: 1.75rem;
 }
 
+h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leading-10.lg\:leading-\[77px\].text-shadow.text-white {
+    font-size: 2.125rem !important;
+    line-height: 55px !important;
+    margin: 10px 0px 10px 0px !important;
+}
+
 @media screen and (max-width: 700px) and (min-width: 360px) {
    .cls-h {
     height: 6rem;
@@ -2906,5 +2912,11 @@ html {
   .navbar-end a {
     padding-left: 0.85rem;
     padding-right: 0.85rem;
+  }
+  h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leading-10.lg\:leading-\[77px\].text-shadow.text-white {
+    font-size: 20px !important;
+    line-height: 34px !important;
+    margin: 10px 0px 10px 0px !important;
+    -webkit-text-stroke: 1px #52b4e07a !important;
   }
 }
