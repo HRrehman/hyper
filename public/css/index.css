@@ -2899,6 +2899,37 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
     margin: 10px 0px 10px 0px !important;
 }
 
+.animate-shake{
+    animation: shake 2.5s ease infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  1.78571% {
+    transform: translate(5px, 0);
+  }
+  3.57143% {
+    transform: translate(0, 0);
+  }
+  5.35714% {
+    transform: translate(5px, 0);
+  }
+  7.14286% {
+    transform: translate(0, 0);
+  }
+  8.92857% {
+    transform: translate(5px, 0);
+  }
+  10.7143% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 @media screen and (max-width: 700px) and (min-width: 360px) {
    .cls-h {
     height: 6rem;
