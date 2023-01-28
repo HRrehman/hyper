@@ -2903,6 +2903,49 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
     animation: shake 2.5s ease infinite;
 }
 
+.bntxt1{
+    font-size: 28px;
+    line-height: 1.2em;
+  }
+  .bntxt2{
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+  .bnrhd1 {
+    font-size: 35px !important;
+    background-color: #D5299F !important;
+    text-align: center !important;
+    line-height: 1.5em !important;
+    border-radius: 3px !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .bnrhd2 {
+    font-size: 35px !important;
+    text-align: center !important;
+    line-height: 1.5em !important;
+    border-radius: 3px !important;
+    margin-top: 0px !important;
+    margin-bottom: 50px !important;
+  }
+  .lg\:h-74px {
+    height: 85px;
+  }
+  .lg\:w-400px {
+    width: 635px;
+    padding: 10px;
+    line-height: 1.2em;
+  }
+  .bnrhd1 {
+    font-size: 35px;
+  }
+  .abhdsec{
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+  }
+  .mainhd1{
+    margin-bottom: 40px;
+  }
+
 @keyframes shake {
   0% {
     transform: translate(0, 0);
@@ -2931,7 +2974,7 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
 }
 
 @media screen and (max-width: 700px) and (min-width: 360px) {
-   .cls-h {
+  .cls-h {
     height: 6rem;
   }
   .navbar-start a {
@@ -2949,5 +2992,31 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
     line-height: 34px !important;
     margin: 10px 0px 10px 0px !important;
     -webkit-text-stroke: 1px #52b4e07a !important;
+  }
+  .bntxt1{
+    font-size: 22px;
+  }
+  .bntxt2{
+    font-size: 16px;
+  }
+  .bnrhd1 {
+    font-size: 23px;
+    background-color: #D5299F !important;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+  }
+  .bnrhd2 {
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.2em;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .abhdsec{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
   }
 }
