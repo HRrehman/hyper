@@ -3019,4 +3019,12 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
     padding-top: 8rem !important;
     padding-bottom: 5rem !important;
   }
+  .lg\:w-400px {
+    width: 100% !important;
+    padding: 10px !important;
+    line-height: 1.2em !important;
+  }
+  .lg\:h-74px {
+    height: 100px !important;
+  }
 }
