@@ -2994,29 +2994,29 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
     -webkit-text-stroke: 1px #52b4e07a !important;
   }
   .bntxt1{
-    font-size: 22px;
+    font-size: 22px !important;
   }
   .bntxt2{
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .bnrhd1 {
-    font-size: 23px;
+    font-size: 23px !important;
     background-color: #D5299F !important;
-    text-align: center;
-    line-height: 1.6em;
-    border-radius: 3px;
-    padding: 0px 5px 0px 5px;
+    text-align: center !important;
+    line-height: 1.6em !important;
+    border-radius: 3px !important;
+    padding: 0px 5px 0px 5px !important;
   }
   .bnrhd2 {
-    font-size: 23px;
-    text-align: center;
-    line-height: 1.2em;
-    border-radius: 3px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font-size: 23px !important;
+    text-align: center !important;
+    line-height: 1.2em !important;
+    border-radius: 3px !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
   }
   .abhdsec{
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem !important;
+    padding-bottom: 5rem !important;
   }
 }
