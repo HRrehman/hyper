@@ -3027,4 +3027,7 @@ h2.text-\[1\.625rem\].lg\:text-\[3\.125rem\].tracking-\[3px\].font-zendot.leadin
   .lg\:h-74px {
     height: 100px !important;
   }
+  .w-full.lg\:w-400px.h-52px.lg\:h-74px.bg-section-item.font-zendot.text-21px.lg\:text-28px.leading-6.flex.items-center.justify-center.mx-auto.px-4.lg\:px-0.lg\:ml-auto.lg\:mr-0.text-white {
+    height: 130px !important;
+  }
 }
