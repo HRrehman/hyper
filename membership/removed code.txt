@@ -1,0 +1,66 @@
+<section class="best_performer_section">
+      <!--lg:pb-32 -->
+      <div class="best_performer_section_2">
+        <!-- revo content -->
+        <div class="best_performer_section_3">
+          <div class="best_performer_section_top_heading">
+              <h2 class="bs_hd">The Best Performers</h1>
+              <p>of last month</p>
+          </div>
+
+          <div class="all_performer_div">
+              <!-- 1st -->
+              <div class="performer_details_main" style="margin-top : 50px;">
+                <!-- desktop -->
+                <img class="performer_details_desktop" src="./assets/trophy2.png" alt="trophy2" />
+                <div class="performer_details_desktop">
+                  <h1 class="performer_name">Muhammad M.</h1>
+                  <h2 class="performer_amount">$3,990</h2>
+                </div>
+                <!-- mobile -->
+                <img class="performer_details_mobile" src="./assets/trophy1.png" alt="trophy1" />
+                <div class="performer_details_mobile">
+                  <h1 class="performer_name">Nikko D.</h1>
+                  <h2 class="performer_amount">$5.392</h2>
+                </div>
+              </div>
+              <!-- /1st -->
+
+              <!-- 2nd -->
+              <div class="performer_details_main">
+                <!-- desktop -->
+                <img class="performer_details_desktop" src="./assets/trophy1.png" alt="trophy1" />
+                <div class="performer_details_desktop">
+                  <h1 class="performer_name">Nikko D.</h1>
+                  <h2 class="performer_amount">$5.392</h2>
+                </div>
+                <!-- mobile -->
+                <img class="performer_details_mobile" src="./assets/trophy2.png" alt="trophy2" / style="margin-top : 50px;">
+                <div class="performer_details_mobile">
+                  <h1 class="performer_name">Muhammad M.</h1>
+                  <h2 class="performer_amount">$3,990</h2>
+                </div>
+              </div>
+              <!-- /2nd -->
+
+              <!-- 3rd -->
+              <div class="performer_details_main" style="margin-top : 50px;">
+                <img class="performer_details_both" src="./assets/trophy3.png" alt="trophy3" />
+                <div class="performer_details_both_hd">
+                  <h1 class="performer_name">Andrew P.</h1>
+                  <h2 class="performer_amount">$3,423</h2>
+                </div>
+              </div>
+              <!-- /3rd -->
+          </div>
+
+          <div class="button-jQ1">
+            <a href="#claim_offer">
+              <button class="frame-12-fYZ" style="background-color: #fff; color: #102538; margin-top: 30px;">
+              Start Trading</button>
+            </a>
+          </div>
+        </div>
+        <!-- /revo content -->
+      </div>
+    </section>
