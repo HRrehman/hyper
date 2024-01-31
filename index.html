@@ -153,12 +153,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="mt-6 lg:mt-7 w-full">
             <div class="form-control lg:w-96">
               <div class="relative">
-                <form action="mail.php" method="post">
-                <input type="email" name="email" placeholder="Enter your email"
-                  class="input bg-gray-700 input-bordered rounded-xl w-full h-[3.4063rem] pr-16" />
-                <button type="submit" class="btn px-5 bg-gradient-to-r from-gradient1 to-gradient2 hover:from-gradient2 hover:to-gradient1 rounded-xl absolute top-1 right-1 font-zendot text-xs text-white">
+                <form id="myForm">
+                <input type="email" name="email" id="email" placeholder="Enter your email"
+                  class="input bg-gray-700 input-bordered rounded-xl w-full h-[3.4063rem] pr-16" / required>
+                <button type="submit" class="btn px-5 bg-gradient-to-r from-gradient1 to-gradient2 hover:from-gradient2 hover:to-gradient1 rounded-xl absolute top-1 right-1 font-zendot text-xs text-white" onclick="submitForm()">
                   SUBMIT
                 </button>
+                <div id="confirmationMessage" style="display:none;">
+                  Thank you. We have received your email.
+                </div>
                 </form>
               </div>
             </div>
@@ -182,6 +185,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- aos -->
 <!--   <script src="./public/Assets/plugin/aos/aos.js"></script> -->
   <script src="./public/js/index.js"></script>
+  <script>
+        function submitForm() {
+            // Check if the email field is not empty
+            var emailValue = document.getElementById('email').value;
+            if (emailValue.trim() === '') {
+                // Display an error message or take appropriate action for an empty email field
+                // alert('Please enter your email before submitting.');
+                return;
+            }
+
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
+            // Display confirmation message
+            document.getElementById('confirmationMessage').style.display = 'block';
+
+            // Set a timer to hide the success message after 3 seconds (adjust as needed)
+            setTimeout(function () {
+                document.getElementById('confirmationMessage').style.display = 'none';
+            }, 3000);  // 3000 milliseconds = 3 seconds
+
+            // You can redirect to another page or perform additional actions as needed
+            // window.location.href = 'your-success-page.html';
+        }
+    </script>
 </body>
 
 </html>
